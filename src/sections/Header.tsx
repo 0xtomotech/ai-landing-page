@@ -1,8 +1,13 @@
+"use client";
+
 import LogoIcon from "@/assets/logo.svg";
 import MenuIcon from "@/assets/icon-menu.svg";
 import { Button } from "@/components/Button";
+import { useScroll } from "@/contexts/ScrollContext";
 
 export const Header = () => {
+  const { scrollTo } = useScroll();
+
   return (
     <header className="py-4 border-b border-white/15 md:border-none sticky top-0 z-10">
       <div className="absolute inset-0 -z-10 backdrop-blur md:hidden"></div>
@@ -17,28 +22,28 @@ export const Header = () => {
           <div className="hidden md:block">
             <nav className="flex gap-8 text-sm">
               <a
-                className=" text-white/70 hover:text-white transition"
-                href="#"
+                className="text-white/70 hover:text-white transition cursor-pointer"
+                onClick={() => scrollTo("hero")}
+              >
+                Home
+              </a>
+              <a
+                className="text-white/70 hover:text-white transition cursor-pointer"
+                onClick={() => scrollTo("features")}
               >
                 Features
               </a>
               <a
-                className=" text-white/70 hover:text-white transition"
-                href="#"
+                className="text-white/70 hover:text-white transition cursor-pointer"
+                onClick={() => scrollTo("testimonials")}
               >
-                Developers
+                Testimonials
               </a>
               <a
-                className=" text-white/70 hover:text-white transition"
-                href="#"
+                className="text-white/70 hover:text-white transition cursor-pointer"
+                onClick={() => scrollTo("contact")}
               >
-                Pricing
-              </a>
-              <a
-                className=" text-white/70 hover:text-white transition"
-                href="#"
-              >
-                Changelog
+                Contact
               </a>
             </nav>
           </div>

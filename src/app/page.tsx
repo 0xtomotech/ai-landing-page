@@ -10,11 +10,19 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Hero />
+      <div id="hero">
+        <Hero />
+      </div>
       <LogoTicker />
-      <Features />
-      <Testimonials />
-      <CallToAction />
+      <div id="features">
+        <Features />
+      </div>
+      <div id="testimonials">
+        <Testimonials />
+      </div>
+      <div id="contact">
+        <CallToAction />
+      </div>
       <Footer />
     </>
   );
