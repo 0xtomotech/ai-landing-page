@@ -23,12 +23,12 @@ This project is a modern, responsive landing page for an AI startup, built with 
 
 ## Technologies Used
 
-- [Next.js](https://nextjs.org/) - React framework for server-side rendering and static site generation
-- [React](https://reactjs.org/) - JavaScript library for building user interfaces
-- [TypeScript](https://www.typescriptlang.org/) - Typed superset of JavaScript
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [Framer Motion](https://www.framer.com/motion/) - Animation library for React
-- [DotLottie Player](https://dotlottie.io/) - Lottie animation player
+- [Next.js](https://nextjs.org/) - A cool React framework for server-side rendering and static site generation
+- [React](https://reactjs.org/) - A popular JavaScript library for building user interfaces
+- [TypeScript](https://www.typescriptlang.org/) - A typed version of JavaScript that makes coding easier
+- [Tailwind CSS](https://tailwindcss.com/) - A super flexible utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) - An awesome animation library for React
+- [DotLottie Player](https://dotlottie.io/) - A handy Lottie animation player
 
 ## Project Structure
 
